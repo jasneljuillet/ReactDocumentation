@@ -10,4 +10,4 @@ function localeTime() {
   ReactDOM.render(element, document.getElementById("root"));
 }
 
-setInterval(tick, 1000);
+setInterval(localeTime, 1000);
